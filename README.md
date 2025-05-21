@@ -4,6 +4,12 @@ REST API Utwórz REST API przy użyciu frameworka Laravel / Symfony. Celem aplik
 ## UnitTests
 `./vendor/bin/phpunit`
 
+## Instalation
+* `docker compose up -d` -> db in mysql 
+* `composer install`
+* ` php bin/console d:m:m`
+* `symfony server:start`
+
 ## Endpoint
 * `/api/companies` GET
 * `/api/companies` POST
